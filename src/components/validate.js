@@ -1,5 +1,5 @@
 export const validate = (data, type) => {
-  const errors = {};
+  const errors = {}; 
 
   if (!data.email) {
     errors.email = "Email is required";
