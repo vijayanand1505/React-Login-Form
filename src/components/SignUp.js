@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { validate } from "./validate";
 import { notify } from "./toast";
 import styles from "./SignUp.module.css";
- 
+
 const SignUp = () => {
   const [data, setData] = useState({
     name: "",
